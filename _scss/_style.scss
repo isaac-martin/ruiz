@@ -172,6 +172,7 @@ flex: 0 0 65%;
 position: relative;
 z-index: 2;
   font-size: 1.98rem;
+  // background: rgba('#f5d3c8', 0.7);
 
   @include phone {
     -webkit-box-ordinal-group: 3;
@@ -248,7 +249,7 @@ top: 0;
 
 
 .img-01 {
-  background-image: url(../assetts/img/same.jpg);
+  background-image: url(../assetts/img/sam.jpg);
 }
 
 

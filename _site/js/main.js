@@ -2,7 +2,7 @@ $(function(){
 // 'use strict';
 
 $.fn.igs = function() {
-  var token = '4125349687.1677ed0.0b857da8ae1245c197bf2accff4d5009',
+  var token = '20780666.1677ed0.ad189e2837e048cea08c5a03a6578b08',
     num_photos = 6;
 
   $.ajax({
@@ -131,7 +131,7 @@ var $contactForm = $('#contact-form');
         window.ga('send', 'pageview',
             undefined !== window.location.pathname ? window.location.pathname : url);
     }
-    
+
         }
       },
       smoothState = $page.smoothState(options).data('smoothState');
