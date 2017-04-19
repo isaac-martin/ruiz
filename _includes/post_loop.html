@@ -1,0 +1,28 @@
+<!-- Must Wrap In This
+<div class="grid">
+and the jekyll for loop with limit of posts
+-->
+
+
+
+<div class="col-5_sm-12" data-push-right="off-1_sm-0">
+  <a href="{{post.url}}">
+    <div class="post-wrap">
+      <div class="archive-post-img" style="background-image: url('{{post.image_path}}')";>
+        <p class="date">{% include date-format-post.html %}</p>
+      </div>
+      <div class="post-archive-text" <div data-mh="blog-text">
+        <h3> {{post.title}}</h3>
+        <h4>Posted By - {{post.author}}</h4>
+        <p> {{post.excerpt}} </p>
+      </div>
+    </div>
+  </a>
+</div>
+
+
+
+<!-- Must Wrap In This
+end for
+</div>
+-->

@@ -1,0 +1,23 @@
+name: Isaac Martin | Freelance Web Developer
+highlighter: pygments # or rouge or null
+exclude: ["node_modules", "gulpfile.js", "package.json" , "browserconfig.xml", "README.md"]
+# permalink: pretty
+
+
+# here list all of your categories
+categories:
+- Technology
+- Marketing
+- travel
+
+url: https://welltraveled.io
+
+highlights:
+  - blue
+  - red
+  - green
+  - blk
+  - grey
+  - prpl
+  - org
+  - ylw

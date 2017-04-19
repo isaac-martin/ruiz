@@ -1,0 +1,37 @@
+//Colors
+
+$blue-primary: #083D77;
+$grey-primary: #cccccc;
+$blk-primary: #2b292c;
+$green-primary: #6db5a1;
+$red-primary: #ed6a5a;
+$prpl-primary: #6a3466;
+$org-primary: #f8a452;
+$ylw-primary: #ffd166;
+$body-bg: #F9FAFB;
+
+$white: #fff;
+
+
+//Tints Of Colors
+
+$light-blue-primary: lighten($blue-primary,10%);
+$dark-blue-primary: darken($blue-primary,10%);
+
+$light-grey-primary: lighten($grey-primary,10%);
+$dark-grey-primary: darken($grey-primary,10%);
+
+$light-blk-primary: lighten($blk-primary,10%);
+$dark-blk-primary: darken($blk-primary,10%);
+
+$light-green-primary: lighten($green-primary,10%);
+$dark-green-primary: darken($green-primary,10%);
+
+$light-prpl-primary: lighten($prpl-primary,10%);
+$dark-prpl-primary: darken($prpl-primary,10%);
+
+$light-org-primary: lighten($org-primary,10%);
+$dark-org-primary: darken($org-primary,10%);
+
+$light-ylw-primary: lighten($ylw-primary,10%);
+$dark-ylw-primary: darken($ylw-primary,10%);

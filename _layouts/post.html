@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+<div class="post-header-img scene_element scene_element--fadein" style="background-image: url('{{page.image_path}}')";>
+<div class="container h100 scene_element scene_element--fadein">
+  <div class="grid-bottom">
+    <div class="col post-title-wrap">
+      <h1 class="page-title"><span class="underline underline-{{page.highlight}}">{{page.title}}</span></h1>
+      <p> {{page.author}} - {% include date-format-page.html %}</p>
+    </div>
+  </div>
+</div>
+</div>
+
+<main class="container sml-pad scene_element scene_element--fadeinup">
+  <div class="grid">
+    <div class="col-12">
+        {{content}}
+    </div>
+    <div class="col-6_sm-12">
+      <h3><span class="underline underline-{{page.highlight}}">Comments</span></h2>
+      <div class="fb-comments" data-href="{{site.url}}{{page.url}}" data-numposts="5" data-width="500"></div>
+    </div>
+    <div class="col-6_sm-12">
+      <h3><span class="underline underline-{{page.highlight}}">Share</span></h3>
+      <div class="share-wrap">
+        <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via=welltraveled.io&related=welltraveled.io" rel="nofollow" target="_blank" title="Share on Twitter"><i class="icon-social-twitter icons"></i></a>
+        <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook"><i class="icon-social-facebook icons"></i></a>
+        <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Google+"><i class="icon-social-google icons"></i>+</a>
+        <a href="http://www.linkedin.com/shareArticle?mini=true&url={{site.url}}{{ page.url }}>&title={{ page.title }}&summary=&source={{ site.url }}"><i class="icon-social-linkedin icons"></i></a>
+        <a href="https://pinterest.com/pin/create/button/?url={{page.image_path}}&media={{page.title}}&description=Well Traveled Blog"><i class="icon-social-pinterest icons"></i></a>
+      </div>
+
+    </div>
+    <div class="col-12 grid">
+      <div class="col-12">
+        <h2 class="center"><span class="underline underline-{{page.highlight}}">More Posts</span></h2>
+      </div>
+      {% for post in site.posts limit:2 %}
+        {% include post_loop.html %}
+    {% endfor %}
+    </div>
+
+
+
+
+  </div><!-- End Grid -->
+</main>

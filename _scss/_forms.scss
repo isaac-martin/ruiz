@@ -1,0 +1,92 @@
+@import "form-reset";
+
+
+.display-none{
+  display: none;
+}
+.slide-inner {
+
+  .input-group{
+    margin: 60px 0;
+  }
+  input,textarea { border-bottom: 1px solid $blk-primary;
+        padding: 8px 2px;
+        width: 70%;
+        display: block;
+        margin-bottom: 20px;
+        background:none;
+        appearance: none;
+
+        @include phone {
+          width: 100%;
+        }
+      }
+
+      textarea {
+        resize: none;
+        height: 40px;
+      }
+
+      .subscribe-btn, .send-btn {
+        width: auto;
+        display: block;
+        text-align: center;
+        border: 1px solid $blk-primary;
+        padding: 5px 20px;
+        font-size: 1.5em;
+        margin: 20px 0;
+      }
+
+      .radio-button-wrapper {
+        width: 100%;
+        display: inline-block;
+      }
+
+      .radio-inner {
+        width: 23%;
+        display: inline-block;
+        float: left;
+        margin: 0 2% 0 0;
+        input {
+          display: none;
+        }
+
+        label {
+          width: 100%;
+          padding: 5px 0;
+          line-height: inherit;
+          transition: all .5s ease;
+          cursor: pointer;
+          display: block;
+          text-align: center;
+
+        }
+
+        .segment-radio:checked+.segment-label {
+
+          border-bottom: 1px solid $blk-primary;
+        }
+
+
+      }
+}
+
+.main-nav {
+
+.signup-trigger {
+  border: 1px solid;
+  border-radius: 3px;
+  padding: 5px 10px;
+  margin-left: 15px;
+}
+}
+
+.intro-pull {
+  .signup-trigger {
+    border: 1px solid;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-size: 20px;
+    margin-top: 60px;
+  }
+}

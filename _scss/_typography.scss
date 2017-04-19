@@ -1,0 +1,88 @@
+h1 {
+
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: $font-reg;
+  font-weight: normal;
+}
+
+h3 {
+font-size: 1.2rem;
+
+}
+
+h4 {
+  font-family: $font-light;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+p {
+  font-family: $font-light;
+  font-size: 1.1rem;
+}
+
+li {
+  font-family: $font-light;
+}
+
+
+.underline {
+  border-bottom: .1rem solid;
+}
+
+
+.border-org {
+  border-color: $org-primary;
+}
+.center {
+  text-align: center;
+  width: 100%;
+}
+
+.underline-prpl {
+ border-color: $prpl-primary;
+  }
+
+.underline-blue {
+ border-color: $blue-primary;
+  }
+
+.underline-ylw {
+ border-color: $ylw-primary;
+  }
+
+.underline-org {
+ border-color: $org-primary;
+  }
+
+.underline-red {
+ border-color: $red-primary;
+  }
+
+.underline-green {
+ border-color: $green-primary;
+  }
+
+.underline-grey {
+ border-color: $grey-primary;
+  }
+
+.underline-blk {
+ border-color: $blk-primary;
+  }
+
+  .border-top-grey{
+    border-top: 2px solid $light-grey-primary;
+    padding-top: 40px;
+  }

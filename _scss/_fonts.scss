@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'brandon_textbold';
+    src: url('../assetts/fonts/brandontext-bold-webfont.woff2') format('woff2'),
+         url('../assetts/fonts/brandontext-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'brandon_textlight';
+    src: url('../assetts/fonts/brandontext-light-webfont.woff2') format('woff2'),
+         url('../assetts/fonts/brandontext-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'brandon_textmedium';
+    src: url('../assetts/fonts/brandontext-medium-webfont.woff2') format('woff2'),
+         url('../assetts/fonts/brandontext-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'brandon_text_regularregular';
+    src: url('../assetts/fonts/brandontext-regular-webfont.woff2') format('woff2'),
+         url('../assetts/fonts/brandontext-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'brandon_textthin';
+    src: url('../assetts/fonts/brandontext-thin-webfont.woff2') format('woff2'),
+         url('../assetts/fonts/brandontext-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+//Variables
+$font-thin: 'brandon_textthin';
+$font-light: 'brandon_textlight';
+$font-reg: 'brandon_text_regularregular';
+$font-med: 'brandon_textmedium';
+$font-bld: 'brandon_textbold';

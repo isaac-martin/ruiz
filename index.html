@@ -1,0 +1,65 @@
+---
+layout: default
+title: Well Traveled
+---
+
+    <section class="intro">
+      <p class="intro-pull scene_element scene_element--fadeinupLeft editable">Wouldn&rsquo;t it be great to know who&rsquo;s visiting your site? Well, now you can. By signing up, you&rsquo;ll unlock lots of insights about your visitors, their travel preferences &amp; how they&rsquo;re interacting with your page. <span class="underline border-org"></span><br /><br /><a class="trigger signup-trigger no-smoothState">Sign Up For Free</a></p>
+        <div class="img-wrap scene_element scene_element--fadeinup">
+          <div class="img-holder">
+            <div class="img-cont img-cont-right ">
+              <div class="img-bg img-01"></div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <main class="container">
+      <div class="grid">
+        <div class="icon-wrap grid-middle col-12 scene_element scene_element--fadeinup">
+          <div class="col-4 grid">
+            <div class="col-6_sm-10" data-push-left="off-3_sm-1" data-push-right="off-3_sm-1">
+              <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 180 228.5"><defs><style>.cls-1{fill:none;stroke:#454246;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;}</style></defs><title>Asset 1</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M179,90A89,89,0,1,0,65,175.43V200h52V174.83A89,89,0,0,0,179,90Z" /><polyline class="cls-1" points="47.5 89.5 70.5 100.5 90.5 89.5 113.5 100.5 133.5 89.5" /><polyline class="cls-1" points="66 215 92.25 215 118.5 215" /><line class="cls-1" x1="92.5" y1="227.5" x2="92.5" y2="215.5" /></g></g></svg>
+            </div>
+          </div>
+          <div class="col-8">
+            <h2><span class="underline underline-org editable">Align With Brands</span></h2>
+            <p class="icon-text editable"><strong>Brands are always trying to reach a specific audience and knowing who yours is means winning more brand business. Everyone wins.</strong></p>
+          </div>
+        </div>
+      <div class="icon-wrap grid-middle col-12 scene_element scene_element--fadeinup">
+        <div class="col-8">
+          <h2><span class="underline underline-prpl editable">Measure Performance</span></h2>
+          <p class="icon-text editable">Not only can we tell you who your audience is, but we also know what they&rsquo;re doing on your site. Use Well Traveled to understand and grow your site traffic.</p>
+        </div>
+        <div class="col-4 grid">
+          <div class="col-6_sm-10" data-push-left="off-3_sm-1" data-push-right="off-3_sm-1">
+            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 179.5 241.37"><defs><style>.cls-1{fill:none;stroke:#454246;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;}</style></defs><title>bars</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><rect class="cls-1" x="1" y="31" width="36" height="209.37" /><rect class="cls-1" x="142.5" y="1" width="36" height="239" /><rect class="cls-1" x="71.5" y="95" width="36" height="145" /></g></g></svg>
+          </div>
+        </div>
+      </div>
+      <div class="icon-wrap grid-middle col-12-md-sm-0 scene_element scene_element--fadeinup">
+        <div class="col-4 grid">
+          <div class="col-6_sm-10" data-push-left="off-3_sm-1" data-push-right="off-3_sm-1">
+            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 167.72 256.93"><defs><style>.cls-1{fill:none;stroke:#454246;stroke-miterlimit:10;stroke-width:2px;}</style></defs><title>bolt</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><polygon class="cls-1" points="6.09 249.27 151.73 100.11 96.09 100.11 162.09 6.27 24.09 127.27 84.09 127.27 6.09 249.27" /></g></g></svg>
+          </div>
+        </div>
+        <div class="col-8">
+          <h2><span class="underline underline-green editable">Create Great Content</span></h2>
+          <p class="icon-text editable">Knowing your audience means knowing what resonates with them. With the help of our insights, you can continue to create great content that your readers will love.</p>
+        </div>
+      </div>
+
+
+      <section class="col-12 grid blog-posts-wrap scene_element scene_element--fadeinup">
+        <div class="col-12 grid">
+          <h2 class="center editable"><span class="underline underline-prpl">From The Blog</span></h2>
+
+          {% for post in site.posts limit:2 %}
+            {% include post_loop.html %}
+        {% endfor %}
+        </div>
+      </section>
+
+  </div><!--End Grid Container-->
+</main>

@@ -1,0 +1,78 @@
+$phone: 320px;
+$tablet: 768px;
+$tablet-port: 1024px;
+$sml-desktop: 1320px;
+$sml-med-overide: 1420px;
+$med-desktop: 1520px;
+
+
+@mixin phone-tablet {
+  @media screen and (min-width: #{$phone}) and (max-width: #{$tablet-port - 1px}) {
+    @content;
+  }
+}
+
+@mixin phone-vert-tablet {
+  @media screen and (min-width: #{$phone}) and (max-width: #{$tablet - 1px}) {
+    @content;
+  }
+}
+
+@mixin phone {
+  @media screen and (min-width: #{$phone}) and (max-width: #{$tablet - 1px}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media screen and (min-width: #{$tablet}) and (max-width: #{$tablet-port}) {
+    @content;
+  }
+}
+
+
+@mixin sml-desktop-down {
+  @media screen and (max-width: #{$sml-desktop - 1px}) {
+    @content;
+  }
+}
+
+@mixin sml-desktop {
+  @media screen and (min-width: #{$tablet-port}) and (max-width: #{$sml-desktop - 1px}) {
+    @content;
+  }
+}
+
+@mixin sml-med-override {
+  @media screen and (min-width: #{$sml-med-overide}) and (max-width: #{$med-desktop - 1px}) {
+    @content;
+  }
+}
+
+@mixin med-desktop {
+  @media screen and (min-width: #{$sml-desktop}) and (max-width: #{$med-desktop - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media screen and (min-width: #{desktop}){
+    @content;
+  }
+}
+
+
+.hide-phone {
+  @include phone{
+    display: none!important; visibility: hidden;
+  }
+}
+
+.mobile-only {
+  display: none;
+  visibility: hidden;
+  @include phone {
+    display: block;
+    visibility: visible;
+  }
+}
