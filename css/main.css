@@ -4,6 +4,7 @@
 /*
 /*****************************************************************************/
 /* Global Reset */
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script|Oxygen:400,700");
 * {
   margin: 0;
   padding: 0;
@@ -1553,55 +1554,41 @@ img {
       display: block;
       visibility: visible; } }
 
-@font-face {
-  font-family: 'brandon_textbold';
-  src: url("../assetts/fonts/brandontext-bold-webfont.woff2") format("woff2"), url("../assetts/fonts/brandontext-bold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
+.hey {
+  font-family: "Kaushan Script", cursive;
+  display: block; }
 
-@font-face {
-  font-family: 'brandon_textlight';
-  src: url("../assetts/fonts/brandontext-light-webfont.woff2") format("woff2"), url("../assetts/fonts/brandontext-light-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
+.logo {
+  font-family: "Kaushan Script", cursive; }
 
-@font-face {
-  font-family: 'brandon_textmedium';
-  src: url("../assetts/fonts/brandontext-medium-webfont.woff2") format("woff2"), url("../assetts/fonts/brandontext-medium-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
+.ruiz {
+  font-weight: 700;
+  display: block;
+  text-transform: uppercase;
+  font-size: 44px; }
 
-@font-face {
-  font-family: 'brandon_text_regularregular';
-  src: url("../assetts/fonts/brandontext-regular-webfont.woff2") format("woff2"), url("../assetts/fonts/brandontext-regular-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'brandon_textthin';
-  src: url("../assetts/fonts/brandontext-thin-webfont.woff2") format("woff2"), url("../assetts/fonts/brandontext-thin-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
+.travel {
+  font-size: 20px; }
 
 h2 {
   font-size: 2rem;
-  font-family: "brandon_text_regularregular";
+  font-family: "Oxygen", sans-serif;
   font-weight: normal; }
 
 h3 {
   font-size: 1.2rem; }
 
 h4 {
-  font-family: "brandon_textlight";
+  font-family: "Oxygen", sans-serif;
   font-size: 1rem;
   margin-bottom: 20px; }
 
 p {
-  font-family: "brandon_textlight";
+  font-family: "Oxygen", sans-serif;
   font-size: 1.1rem; }
 
 li {
-  font-family: "brandon_textlight"; }
+  font-family: "Oxygen", sans-serif; }
 
 .underline {
   border-bottom: .1rem solid; }
@@ -1861,7 +1848,7 @@ input[type="image"] {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-size: 13px;
-  font-family: "brandon_textlight"; }
+  font-family: "Oxygen", sans-serif; }
 
 button,
 input[type="reset"],
@@ -1892,7 +1879,7 @@ input[type="week"] {
   text-align: left;
   vertical-align: top;
   font-size: 13px;
-  font-family: "brandon_textlight";
+  font-family: "Oxygen", sans-serif;
   -webkit-appearance: none;
   background-clip: padding-box;
   -webkit-border-radius: 0;
@@ -1953,7 +1940,7 @@ textarea {
 optgroup {
   font-style: normal;
   font-weight: normal;
-  font-family: "brandon_textlight"; }
+  font-family: "Oxygen", sans-serif; }
 
 select::-ms-expand {
   display: none; }
@@ -2068,7 +2055,7 @@ html {
 
 body {
   background-color: #F9FAFB;
-  font-family: "brandon_text_regularregular";
+  font-family: "Oxygen", sans-serif;
   color: #2b292c;
   text-align: left; }
   body a {
@@ -2100,7 +2087,7 @@ header {
   .main-nav a {
     padding: 0 0 0 15px;
     font-size: 1rem;
-    font-family: "brandon_textlight"; }
+    font-family: "Oxygen", sans-serif; }
 
 .menu-trigger {
   position: fixed;
@@ -2202,15 +2189,17 @@ header {
       margin: 60px 0 0 0; } }
 
 .intro-pull {
-  width: 65%;
-  margin: 0 -35% 0 0;
+  width: 55%;
+  margin: 0 -45% 0 0;
   -webkit-box-flex: 0;
-  -webkit-flex: 0 0 65%;
-      -ms-flex: 0 0 65%;
-          flex: 0 0 65%;
+  -webkit-flex: 0 0 55%;
+      -ms-flex: 0 0 55%;
+          flex: 0 0 55%;
   position: relative;
   z-index: 2;
-  font-size: 1.98rem; }
+  font-size: 1.98rem;
+  background: rgba(245, 211, 200, 0.7);
+  padding: 30px; }
   @media screen and (min-width: 320px) and (max-width: 767px) {
     .intro-pull {
       -webkit-box-ordinal-group: 3;
@@ -2247,11 +2236,11 @@ header {
   height: 100%; }
 
 .img-wrap {
-  width: 70%;
+  width: 80%;
   -webkit-box-flex: 0;
-  -webkit-flex: 0 0 70%;
-      -ms-flex: 0 0 70%;
-          flex: 0 0 70%;
+  -webkit-flex: 0 0 80%;
+      -ms-flex: 0 0 80%;
+          flex: 0 0 80%;
   -ms-grid-row-align: stretch;
   -webkit-align-self: stretch;
       -ms-flex-item-align: stretch;
