@@ -21,12 +21,6 @@ $.fn.igs = function() {
   });
 }
 
-$.fn.subscribe = function(){
-  $(".subscribe-btn").click(function(){
-    fbq('track', 'CompleteRegistration');
-    pintrk('track', 'signup');
-  });
-}
 
 $.fn.menu = function(){
   $(".menu-trigger").click(function(){
@@ -36,12 +30,6 @@ $.fn.menu = function(){
 }
 
 $.fn.signup = function(){
-  $(".signup-trigger").click(function() {
-    $(".signup-cont").toggleClass("slide-open");
-    $(".contact-cont").removeClass("slide-open");
-    fbq('track', 'Lead');
-    pintrk('track', 'lead');
-  });
 
   $(".contact-trigger").click(function() {
     $(".contact-cont").toggleClass("slide-open");
@@ -92,7 +80,6 @@ var $contactForm = $('#contact-form');
       $().igs();
       $().signup();
       $().menu();
-      $('#mc-embedded-subscribe-form').formchimp();
   });
 
   var $page = $('#main'),
@@ -124,8 +111,6 @@ var $contactForm = $('#contact-form');
             $().igs();
             $().signup();
             $().menu();
-            FB.XFBML.parse();
-            $('#mc-embedded-subscribe-form').formchimp();
             if (window.ga)
     {
         window.ga('send', 'pageview',

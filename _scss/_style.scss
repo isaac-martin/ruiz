@@ -34,8 +34,7 @@ body {
 
 header {
   width: 100vw;
-  // background-color: $white;
-  background-color: rgba($white , .97);
+  background-color: rgba($header-bg , .97);
   padding: 10px 0 0 0;
   position: fixed;
   top: 0;

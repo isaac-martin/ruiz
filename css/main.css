@@ -2054,7 +2054,7 @@ html {
       font-size: 62.5%; } }
 
 body {
-  background-color: #F9FAFB;
+  background-color: #fff;
   font-family: "Oxygen", sans-serif;
   color: #2b292c;
   text-align: left; }
@@ -2067,7 +2067,7 @@ body {
 
 header {
   width: 100vw;
-  background-color: rgba(255, 255, 255, 0.97);
+  background-color: rgba(245, 211, 200, 0.97);
   padding: 10px 0 0 0;
   position: fixed;
   top: 0;
@@ -2414,7 +2414,7 @@ footer {
         margin-right: 10px; } }
 
 .post-archive-text {
-  background: #fff;
+  background: rgba(245, 211, 200, 0.3);
   width: 100%;
   padding: 20px; }
 
